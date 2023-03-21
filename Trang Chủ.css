@@ -1,0 +1,251 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.logo img{
+    width: 200px;
+    margin-top: 10px;
+    position: relative;
+    left: 100px;
+}
+.menu{
+    background-color: black;
+    min-height: 50px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    left: 400px;
+    padding: 0px 20px;
+    bottom: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.9s;  
+}
+.menu ul li a:hover{
+    color: goldenrod;
+    font-size: 1vw;
+}
+/* .form{
+    text-align: right;
+    margin-right: 10px;
+    position: relative;
+    bottom: 100px;
+}  */
+
+/* PHẦN BANNER SILE SHOW */
+.banner{
+    min-height: 400px;
+    margin-top: 5px;
+   
+}
+.sileshow img{
+   width: 100%;
+}
+/* Phần Banner-show */
+.banner-show{
+  
+    min-height: 1600px;
+}
+.item-banner{
+    min-height: 400px;
+    margin: 50px 50px;
+}
+.item-banner2{
+    border: 5px solid #d3b673;
+    min-height: 400px;
+    margin: 50px 50px;
+}
+.text{
+   
+    position: relative;
+    top: 150px;
+    width: 400px;
+    left: 220px;
+}
+
+/*  Sản phẩm nổi bật */
+
+.imgfluid{
+    display: block;
+    width: 100%;
+}
+.header-body{
+    text-align: center;
+}
+.header-item{
+    font-size: 18px;
+    color: red;
+}
+.header-icon{
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.icon-bottom-title {
+    display: block;
+    margin: auto;
+    background: url(./images/home_line.webp) no-repeat center;
+    width: 315px;
+    height: 30px;
+}
+
+.content{
+    margin-top: 20px;
+}
+.content-body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.content-img{
+    overflow: hidden;
+}
+.content-img img:hover{
+    transform: scale(1.1);
+}
+.content-row{
+    text-align: center;
+}
+.content-item{
+    background: #f5f5f5;
+}
+.content-item1{
+    font-size: 18px;
+}
+.content-item2{
+    color: red;
+}
+.content-item3{
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #d3b673;
+    color: white;
+    border: #d3b673;
+}
+.content-item3:active{
+    color: black;
+}
+
+.content-footer{
+    padding: 25px;
+    text-align: center;
+}
+.content-footer1{
+    font-size: 18px;
+    padding: 25px;
+    background: #d3b673;
+    color: white;
+    border: #d3b673;
+    
+}
+/* Thông tin khuyễn mãi */
+.khuyenmai{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 30px;    font-size: 0.8vw;
+    color: burlywood;
+}
+.thongtin{
+  
+   min-height: 1100px;
+   margin-top: 50px;
+}
+.boxtrai{
+    width: 60%;
+    float: left;
+}
+.boxphai{
+    width: 36%;
+    float: left;
+}
+.box1{
+  
+    width: 600px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #fbf1f1;
+    transition: 1s;
+    
+}
+.box1 img{
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
+.item:hover img{
+    transform: scale(0.9);
+    
+}
+.box2{
+   
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    background-color: #f3f0f0;
+   
+}
+.box2 img{
+    width: 100%;
+    
+}
+.box3{
+ 
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    background-color: #f3f0f0;
+   
+}
+.box3 img{
+    width: 100%;
+}
+.box4{
+   
+    min-height: 400px;
+    margin-top: 30px;
+    background-color: #000;
+}
+.box4 h1{
+    color: #fbf1f1;
+    font-size: 1.2vw;
+    padding: 10px 10px;
+}
+/* PHẦN FOOTER */
+.footer{
+    min-height: 350px;
+    background-color: rgb(139, 216, 218);
+   
+}
+.item-footer{
+ 
+    float: left;
+    min-height: 200px;
+    margin: 40px 45px;
+   
+}
+.item-footer img{
+    width: 250px;
+   
+}
+.item-footer p{
+    color: white;
+}

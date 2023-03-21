@@ -1,0 +1,78 @@
+
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.imgfluid{
+    display: block;
+    width: 100%;
+}
+.banner img{
+    background-color: #303030;
+}
+
+.banner{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.danhmuc{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.danhmuc-item{
+    display: flex;
+    list-style: none;
+}
+.danhmuc-icon{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.content-body{
+    padding: 0 150px;
+}
+.content-item{
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-icon{
+    font-size: 18px;
+}
+.anh {
+    
+    text-align: center;
+}
+.anh img{
+    width: 60%;
+    padding-bottom: 30px;
+}
+.anh-body{
+    
+    padding-top: 50px;
+}
+
+
+.footer{
+    min-height: 350px;
+    background-color: rgb(139, 216, 218);
+   
+}
+.item-footer{
+ 
+    float: left;
+    min-height: 200px;
+    margin: 40px 45px;
+   
+}
+.item-footer img{
+    width: 250px;
+   
+}
+.item-footer p{
+    color: white;
+}
